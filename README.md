@@ -63,12 +63,17 @@ using the API client, refer to the GitHub repository.
 To serve the application:
 ```
 php -S localhost:8000 -t public
-```                               
+```                     
 
 To run the unit tests:
 ```
 ./vendor/bin/phpunit
 ```
+
+Application logging can be found at
+```
+tail -f ./storage/logs/laravel.log
+```          
 
 ## Submitting
 Your assignment should be submitted as a Git repository hosted on a service like [GitHub](https://github.com),

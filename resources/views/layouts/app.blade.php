@@ -20,6 +20,10 @@
                 height: 100vh;
                 margin: 1rem;
             }
+            .error {
+                color: #D8000C;
+                background-color: #FFD2D2;
+            }
         </style>
 
     </head>
