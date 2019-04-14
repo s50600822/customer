@@ -83,3 +83,5 @@ Your assignment should be submitted as a Git repository hosted on a service like
 - .env is not committed, cause it contains some credentials. Please update API key and store url on your side before run.
 - Added extra column named Detail on Customer page for easy access to CustomerDetail.
 - Cache can be added to service call to avoid round trip(not yet).
+- CustomerDetailPageTest/CustomerPageTest are just IT that are verifying happy cases with real data. 
+This usually only fit for acceptance test. Usually I would create more isolated tests. But I'm not familiar with Laravel + PHP enough to come up with reasonably mocking and isolation.
