@@ -78,3 +78,8 @@ tail -f ./storage/logs/laravel.log
 ## Submitting
 Your assignment should be submitted as a Git repository hosted on a service like [GitHub](https://github.com),
 [BitBucket](https://bitbucket.org/) or [GitLab](https://gitlab.com/).
+
+## Submission notes
+- .env is not committed, cause it contains some credentials. Please update API key and store url on your side before run.
+- Added extra column named Detail on Customer page for easy access to CustomerDetail.
+- Cache can be added to service call to avoid round trip(not yet).
